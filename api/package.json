@@ -2,15 +2,24 @@
     "name": "trpg-api",
     "version": "0.1.0",
     "description": "TRPG platform RESTful API Server",
-    "main": "app.js",
+    "main": "src/app.js",
     "scripts": {
-        "start": "node app.js",
+        "start": "node src/app.js",
+        "dev": "nodemon src/app.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],
     "author": "Tafka-4",
     "license": "MIT",
     "dependencies": {
-        "express": "^4.21.2"
+        "aws-sdk": "^2.1692.0",
+        "bcrypt": "^5.1.1",
+        "crypto": "^1.0.1",
+        "express": "^4.21.2",
+        "jsonwebtoken": "^9.0.2",
+        "mysql": "^2.18.1",
+        "nodemailer": "^6.9.16",
+        "redis": "^4.7.0",
+        "uuid": "^11.0.3"
     }
 }
